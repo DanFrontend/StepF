@@ -1,7 +1,11 @@
 .forkApp {
     color: red;
 
-    &-vgds {
-        width: 33%
+
+    &--vgds {
+        width: 32px;
+        height: 100px;
+        background-color: black;
+
     }
 }
