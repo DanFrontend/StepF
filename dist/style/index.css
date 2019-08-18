@@ -1,4 +1,338 @@
-.forkApp {
-  color: red; }
-  .forkApp-vgds {
-    width: 33%; }
+body {
+  margin: 0; }
+
+@font-face {
+  font-family: Lato;
+  src: url(/src/fonts/Lato-regular.ttf); }
+
+@font-face {
+  font-family: Lato-bold;
+  src: url(/src/fonts/Lato-bold.ttf); }
+
+@font-face {
+  font-family: Lato-italic;
+  src: url(/src/fonts/Lato-italic.ttf); }
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(/src/fonts/11951.ttf); }
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(/src/fonts/Montserrat-Light.otf); }
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(/src/fonts/Montserrat-Regular.otf); }
+
+.forkApp__header {
+  background-image: url(/src/img/img@1X.png);
+  background-position-x: center; }
+  .forkApp__header-nav {
+    background: #27262A; }
+    .forkApp__header-nav-innerwrap {
+      padding: 0 10px;
+      max-width: 1200px;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      height: 100px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .forkApp__header-logo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none; }
+    .forkApp__header-logo-img {
+      margin-right: 16px;
+      background: url("../../src/img/Logo@1X.png");
+      width: 43px;
+      height: 41px; }
+      .forkApp__header-logo-img:hover {
+        background: url("../../src/img/logo-hover.png"); }
+    .forkApp__header-logo-title {
+      color: #8D81AC;
+      font-family: Lato;
+      font-size: 24px; }
+      .forkApp__header-logo-title:hover {
+        color: #FFF; }
+  .forkApp__header-menu {
+    list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 3px;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 708px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0; }
+    .forkApp__header-menu-item a {
+      color: #8D81AC;
+      font-family: Montserrat-Bold;
+      font-size: 16px;
+      text-decoration: none; }
+      .forkApp__header-menu-item a:hover {
+        color: #FFF; }
+    .forkApp__header-menu-button {
+      width: 145px;
+      height: 38px;
+      font-size: 16px;
+      font-family: Montserrat-Bold;
+      border-radius: 20px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding-bottom: 4px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-left: 50px;
+      background: #8D81AC;
+      cursor: pointer; }
+      .forkApp__header-menu-button:hover {
+        background: #FFF; }
+        .forkApp__header-menu-button:hover a {
+          color: #8D81AC; }
+      .forkApp__header-menu-button a {
+        text-decoration: none;
+        color: #FFF; }
+  .forkApp__header-content {
+    height: 664px;
+    position: relative; }
+    .forkApp__header-content-title {
+      font-size: 84px;
+      font-family: Montserrat-Bold;
+      color: #FFF;
+      text-align: center;
+      margin-top: 36px; }
+    .forkApp__header-content-text {
+      font-size: 30px;
+      font-family: Lato;
+      color: #8D81AC;
+      text-align: center;
+      margin-top: 11px; }
+    .forkApp__header-content-version {
+      font-size: 16px;
+      font-family: Montserrat-Regular;
+      color: #848E97;
+      text-align: center;
+      margin-top: 15px;
+      text-transform: uppercase; }
+    .forkApp__header-content-button {
+      position: absolute;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      bottom: -29px;
+      left: 0;
+      width: 100%;
+      margin: 0 auto; }
+    .forkApp__header-content-download {
+      width: 390px;
+      height: 62px;
+      background: #8D81AC;
+      border-radius: 31px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 22px;
+      font-family: Montserrat-Bold;
+      color: #FFF;
+      cursor: pointer; }
+      .forkApp__header-content-download:hover {
+        background: #FFF;
+        color: #8D81AC; }
+    .forkApp__header-content-innerwrap {
+      padding: 0 10px;
+      max-width: 1200px;
+      margin: 0 auto; }
+  .forkApp__header-tablet-button {
+    display: none; }
+  .forkApp__header-tablet-burger {
+    display: none; }
+  .forkApp__header-tablet-burgerMenu {
+    display: none; }
+
+@media screen and (max-width: 992px) {
+  .forkApp__header-menu {
+    width: 515px;
+    margin: 16px auto; }
+    .forkApp__header-menu-button {
+      display: none; }
+  .forkApp__header-nav-innerwrap {
+    display: block;
+    height: 118px;
+    padding-top: 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .forkApp__header-tablet {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 10px; }
+    .forkApp__header-tablet-button {
+      width: 145px;
+      height: 38px;
+      border-radius: 20px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding-bottom: 4px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-left: 50px;
+      background: #8D81AC;
+      cursor: pointer; }
+      .forkApp__header-tablet-button a {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 16px;
+        font-family: Montserrat-Bold; }
+  .forkApp__header-content {
+    height: 651px; }
+    .forkApp__header-content-title {
+      font-size: 73px;
+      margin-top: 31px; }
+    .forkApp__header-content-text {
+      font-size: 24px;
+      margin-top: 18px; }
+    .forkApp__header-content-version {
+      font-size: 14px; } }
+
+@media screen and (max-width: 541px) {
+  .forkApp__header-menu {
+    width: 450px; } }
+
+@media screen and (max-width: 480px) {
+  .forkApp__header {
+    background-position-y: -27px; }
+    .forkApp__header-logo-title {
+      display: none; }
+    .forkApp__header-menu {
+      display: none; }
+    .forkApp__header-nav-innerwrap {
+      height: 103px;
+      padding-top: 32px; }
+    .forkApp__header-tablet {
+      padding: 0 6px; }
+      .forkApp__header-tablet-button {
+        width: 119px;
+        height: 37px;
+        margin-left: 0px; }
+      .forkApp__header-tablet-burger {
+        display: block;
+        padding-top: 9px;
+        margin-left: 15px; }
+        .forkApp__header-tablet-burger-img {
+          cursor: pointer; }
+      .forkApp__header-tablet-burgerMenu {
+        position: absolute;
+        list-style: none;
+        background: #333;
+        width: 290px;
+        height: 367px;
+        padding: 0;
+        z-index: 1;
+        right: 5%;
+        bottom: 8px; }
+        .forkApp__header-tablet-burgerMenu.open {
+          display: block; }
+        .forkApp__header-tablet-burgerMenu-item {
+          border-bottom: 1px solid #3B3B3B;
+          height: 88px;
+          padding-left: 33px;
+          font-size: 26px;
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+          color: #FFF;
+          font-family: Montserrat-Regular;
+          text-decoration: none; }
+          .forkApp__header-tablet-burgerMenu-item.active {
+            position: relative;
+            color: #8D81AC; }
+            .forkApp__header-tablet-burgerMenu-item.active::before {
+              content: '';
+              width: 8px;
+              height: 53px;
+              background: #8D81AC;
+              position: absolute;
+              left: 0; }
+    .forkApp__header-content {
+      height: 584px; }
+      .forkApp__header-content-title {
+        font-size: 49px; }
+      .forkApp__header-content-text {
+        font-size: 21px;
+        line-height: 31px;
+        margin-top: 10px;
+        text-transform: capitalize; }
+      .forkApp__header-content-download {
+        font-size: 19px;
+        width: 290px;
+        height: 45px; }
+      .forkApp__header-content-button {
+        bottom: -22px; } }
