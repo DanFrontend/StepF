@@ -28,21 +28,23 @@ $lato: 'Lato', sans-serif;
         @include flex-column-center;
         font-family: $montserrat;
         width: 100vw;
+        // padding-left: 10px;
+        // padding-right: 10px;
         background-color: $white;
-        &--hint {
+        &__hint {
             color: #848e97;
             font-size: 14px;
             margin-top: 45px;
             margin-bottom: 53px;
         }
-        &--headline {
+        &__headline {
             font-size: 54px;
             font-weight: 700;
             color: #635c73;
             text-transform: uppercase;
             margin-bottom: 17px;
         }
-        &--disclaimer {
+        &__disclaimer {
             width: 916px;
             font-size: 21px;
             font-weight: 400;
@@ -51,14 +53,14 @@ $lato: 'Lato', sans-serif;
             text-align: center;
             color: #323232;
         }
-        &--repofakebuttons {
+        &__repofakebuttons {
             @include flex-row-center;
             font-size: 12px;
             color: #24292e;
             margin-top: 32px;
             margin-bottom: 70px;
         }
-        &--fakebutton {
+        &__fakebutton {
             @include flex-row-center;
             font-size: 12px;
             font-weight: 700;
@@ -66,7 +68,7 @@ $lato: 'Lato', sans-serif;
             margin-left: 5px;
             margin-right: 5px;
         }
-        &--fakebuttontitle {
+        &__fakebuttontitle {
             @include flex-row-center;
             box-sizing: border-box;
             height: 26px;
@@ -79,7 +81,7 @@ $lato: 'Lato', sans-serif;
                 margin-right: 3px;
             }
         }
-        &--countfakebutton {
+        &__countfakebutton {
             margin-left: -1px;
             height: 24px;
             padding-left: 10px;
@@ -96,14 +98,17 @@ $lato: 'Lato', sans-serif;
         @include flex-column-center;
         font-family: $montserrat;
         width: 100vw;
+        // width: calc(100vw - 20px);
+        // padding-left: 10px;
+        // padding-right: 10px;
         background-color: $white;
-        &--hint {
+        &__hint {
             color: #848e97;
             font-size: 14px;
             margin-top: 45px;
             margin-bottom: 82px;
         }
-        &--headline {
+        &__headline {
             font-size: 42px;
             font-weight: 700;
             color: #635c73;
@@ -111,7 +116,7 @@ $lato: 'Lato', sans-serif;
             margin-bottom: 21px;
             text-align: center;
         }
-        &--disclaimer {
+        &__disclaimer {
             width: 100vw;
             font-size: 21px;
             font-weight: 400;
@@ -120,14 +125,14 @@ $lato: 'Lato', sans-serif;
             text-align: center;
             color: #323232;
         }
-        &--repofakebuttons {
+        &__repofakebuttons {
             @include flex-row-center;
             font-size: 12px;
             color: #24292e;
             margin-top: 33px;
             margin-bottom: 97px;
         }
-        &--fakebutton {
+        &__fakebutton {
             @include flex-row-center;
             font-size: 12px;
             font-weight: 700;
@@ -135,7 +140,7 @@ $lato: 'Lato', sans-serif;
             margin-left: 5px;
             margin-right: 5px;
         }
-        &--fakebuttontitle {
+        &__fakebuttontitle {
             @include flex-row-center;
             box-sizing: border-box;
             height: 26px;
@@ -148,7 +153,7 @@ $lato: 'Lato', sans-serif;
                 margin-right: 3px;
             }
         }
-        &--countfakebutton {
+        &__countfakebutton {
             margin-left: -1px;
             height: 24px;
             padding-left: 10px;
@@ -163,16 +168,20 @@ $lato: 'Lato', sans-serif;
 @media screen and (max-width: 480px) {
     .revolutionaryEditor {
         @include flex-column-center;
+        min-width: 320px;
         font-family: $montserrat;
         width: 100vw;
+        // width: calc(100vw - 20px);
+        // padding-left: 10px;
+        // padding-right: 10px;
         background-color: $white;
-        &--hint {
+        &__hint {
             color: #848e97;
             font-size: 14px;
             margin-top: 32px;
             margin-bottom: 61px;
         }
-        &--headline {
+        &__headline {
             font-size: 26px;
             font-weight: 700;
             color: #635c73;
@@ -181,7 +190,7 @@ $lato: 'Lato', sans-serif;
             text-align: center;
             line-height: 41px;
         }
-        &--disclaimer {
+        &__disclaimer {
             width: 100vw;
             font-size: 15px;
             font-weight: 400;
@@ -191,7 +200,7 @@ $lato: 'Lato', sans-serif;
             text-align: center;
             color: #323232;
         }
-        &--repofakebuttons {
+        &__repofakebuttons {
             @include flex-row-center;
             justify-content: center;
             flex-wrap: wrap;
@@ -200,7 +209,7 @@ $lato: 'Lato', sans-serif;
             margin-top: 33px;
             margin-bottom: 68px;
         }
-        &--fakebutton {
+        &__fakebutton {
             @include flex-row-center;
             font-size: 12px;
             font-weight: 700;
@@ -209,7 +218,7 @@ $lato: 'Lato', sans-serif;
             margin-right: 5px;
             margin-bottom: 20px;
         }
-        &--fakebuttontitle {
+        &__fakebuttontitle {
             @include flex-row-center;
             box-sizing: border-box;
             height: 26px;
@@ -222,7 +231,7 @@ $lato: 'Lato', sans-serif;
                 margin-right: 3px;
             }
         }
-        &--countfakebutton {
+        &__countfakebutton {
             margin-left: -1px;
             height: 24px;
             padding-left: 10px;
