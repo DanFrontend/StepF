@@ -55,11 +55,11 @@ body {
 
          &-img {
             margin-right: 16px;
-            background: url('../../src/img/Logo@1X.png');
+            background: url(/src/img/Logo@1X.png);
             width: 43px;
             height: 41px;
             &:hover {
-               background: url('../../src/img/logo-hover.png')
+               background: url(/src/img/logo-hover.png)
             }
          }
 
