@@ -20,7 +20,13 @@
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.0.0",
     "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^1.0.4",
     "node-sass": "^4.12.0",
     "sass": "^1.22.9"
   },
