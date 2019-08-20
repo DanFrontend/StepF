@@ -34,27 +34,12 @@ body {
       padding: 0 10px;
       max-width: 1200px;
       margin: 0 auto;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
       display: flex;
       height: 100px;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
       align-items: center;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
       justify-content: space-between; }
   .forkApp__header-logo {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
     text-decoration: none; }
     .forkApp__header-logo-img {
@@ -72,20 +57,11 @@ body {
         color: #FFF; }
   .forkApp__header-menu {
     list-style: none;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     padding-bottom: 3px;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 708px;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
     padding-left: 0; }
     .forkApp__header-menu-item a {
@@ -101,20 +77,10 @@ body {
       font-size: 16px;
       font-family: Montserrat-Bold;
       border-radius: 20px;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
       justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
       align-items: center;
       padding-bottom: 4px;
-      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       margin-left: 50px;
       background: #8D81AC;
@@ -150,13 +116,7 @@ body {
       text-transform: uppercase; }
     .forkApp__header-content-button {
       position: absolute;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
       justify-content: center;
       bottom: -29px;
       left: 0;
@@ -167,17 +127,8 @@ body {
       height: 62px;
       background: #8D81AC;
       border-radius: 31px;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
       justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
       align-items: center;
       font-size: 22px;
       font-family: Montserrat-Bold;
@@ -211,16 +162,8 @@ body {
     color: #FFF;
     margin-bottom: 84px; }
   .forkApp__about-content {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
     justify-content: space-between; }
     .forkApp__about-content-title {
       font-size: 16px;
@@ -229,19 +172,10 @@ body {
       color: #FFF;
       line-height: 23px; }
     .forkApp__about-content-logo {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
       justify-content: center;
       margin-bottom: 19px;
       height: 64px;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
       align-items: center; }
     .forkApp__about-content-item {
       width: 28%;
@@ -266,36 +200,19 @@ body {
     display: block;
     height: 118px;
     padding-top: 24px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box; }
   .forkApp__header-tablet {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0 10px; }
     .forkApp__header-tablet-button {
       width: 145px;
       height: 38px;
       border-radius: 20px;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
       justify-content: center;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-      -ms-flex-align: center;
       align-items: center;
       padding-bottom: 4px;
-      -webkit-box-sizing: border-box;
       box-sizing: border-box;
       margin-left: 50px;
       background: #8D81AC;
@@ -375,13 +292,7 @@ body {
           height: 88px;
           padding-left: 33px;
           font-size: 26px;
-          display: -webkit-box;
-          display: -webkit-flex;
-          display: -ms-flexbox;
           display: flex;
-          -webkit-box-align: center;
-          -webkit-align-items: center;
-          -ms-flex-align: center;
           align-items: center;
           color: #FFF;
           font-family: Montserrat-Regular;
@@ -420,9 +331,6 @@ body {
       font-size: 37px;
       margin-bottom: 37px; }
     .forkApp__about-content {
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
       justify-content: center; }
       .forkApp__about-content-item {
         width: 92%;
