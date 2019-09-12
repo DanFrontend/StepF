@@ -2,33 +2,6 @@ body {
     margin: 0
 }
 
-@font-face {
-    font-family: Lato; 
-    src: url(/src/fonts/Lato-regular.ttf); 
-}
-@font-face {
-    font-family: Lato-bold; 
-    src: url(/src/fonts/Lato-bold.ttf); 
-}
-@font-face {
-    font-family: Lato-italic; 
-    src: url(/src/fonts/Lato-italic.ttf); 
-}
-
-@font-face {
-    font-family: Montserrat-Bold; 
-    src: url(/src/fonts/11951.ttf); 
-}
-@font-face {
-    font-family: Montserrat-Light; 
-    src: url(/src/fonts/Montserrat-Light.otf); 
-}
-@font-face {
-    font-family: Montserrat-Regular; 
-    src: url(/src/fonts/Montserrat-Regular.otf); 
-}
-
-
 .forkApp {
    &__header {
       background-image: url(/src/img/img@1X.png);
@@ -52,24 +25,26 @@ body {
          display: flex;
          align-items: center;
          text-decoration: none;
+         &:hover {
+            & .forkApp__header-logo-img {
+               background: url(/src/img/logo-hover.png)
+            }
+            & div {
+               color: #FFF;
+            }
+         }
 
          &-img {
             margin-right: 16px;
             background: url(/src/img/Logo@1X.png);
             width: 43px;
             height: 41px;
-            &:hover {
-               background: url(/src/img/logo-hover.png)
-            }
          }
 
          &-title {
             color: #8D81AC;
             font-family: Lato;
             font-size: 24px;
-            &:hover {
-               color: #FFF;
-            }
          }
       }
       &-menu {
@@ -176,6 +151,14 @@ body {
             &:hover {
                background: #FFF;
                color: #8D81AC;
+               border: 1px solid #8D81AC;
+               box-sizing: border-box;
+            }
+            &-title {
+               color: #848e97;
+               font-size: 14px;
+               position: absolute;
+               bottom: -30px;
             }
          }
 
@@ -197,66 +180,6 @@ body {
 
          &-burgerMenu {
             display: none;
-         }
-      }
-   }
-
-   &__about {
-      background: url(/src/img/testmonials-bg@1X.png);
-      height: 762px;
-
-      &-innerwrap {
-         padding: 87px 10px 0 10px;
-         max-width: 1220px;
-         margin: 0 auto;
-      }
-
-      &-title {
-         font-size: 50px;
-         text-align: center;
-         font-family: Montserrat-Bold;
-         color: #FFF;
-         margin-bottom: 84px;
-      }
-
-      &-content {
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-between;
-
-         &-title {
-            font-size: 16px;
-            text-align: center;
-            font-family: Lato-italic;
-            color: #FFF;
-            line-height: 23px;
-         }
-
-         &-logo {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 19px;
-            height: 64px;
-            align-items: center;
-         }
-
-         &-item {
-            width: 28%;
-            margin-bottom: 92px;
-            &:nth-last-child(-n+4) {
-               & div:first-child {
-                  margin-bottom: 11px;
-               }
-            }
-         }
-
-         &-footer {
-            font-size: 14px;
-            font-family: Lato;
-            color: #FFF;
-            text-align: center;
-            max-width: 900px;
-            margin: 21px auto 0;
          }
       }
    }
@@ -324,34 +247,6 @@ body {
             }
          }
       }
-      &__about {
-         background: url(/src/img/Layer1@1X.png);
-         height: 1078px;
-
-         &-innerwrap {
-            padding-top: 68px;
-         }
-
-         &-title {
-            font-size: 43px;
-         }
-
-         &-content {
-            &-item {
-               width: 45%;
-               margin-bottom: 60px;
-
-               &:nth-last-child(-n+5) {
-                  margin-bottom: 41px;
-               }
-            }
-            &-footer {
-               max-width: 688px;
-               margin-top: 16px;
-               line-height: 20px;
-            }
-         }
-      }
    }
 }
 
@@ -413,7 +308,7 @@ body {
                padding: 0;
                z-index: 1;
                right: 5%;
-               bottom: 8px;
+               top: 103px;
 
                &-item {
                   border-bottom: 1px solid #3B3B3B;
@@ -466,33 +361,6 @@ body {
 
             &-button {
                bottom: -22px;
-            }
-         }
-      }
-
-      &__about {
-         background: url(/src/img/testmonials-bgSmall.png);
-         height: 1552px;
-
-         &-innerwrap {
-            padding-top: 53px;
-         }
-
-         &-title {
-            font-size: 37px;
-            margin-bottom: 37px;
-         }
-
-         &-content {
-            justify-content: center;
-
-            &-item {
-               width: 92%;
-               margin-bottom: 35px;
-            }
-
-            &-footer {
-               display: none;
             }
          }
       }
