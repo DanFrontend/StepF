@@ -228,6 +228,17 @@ body {
                   font-size: 16px;
                   font-family: Montserrat-Bold;
                }
+               &:hover {
+                  background: #FFF;
+                  & a {
+                     color: #8D81AC;
+                  }
+               }
+   
+               & a {
+                  text-decoration: none;
+                  color: #FFF;
+               }
             }
          }
 
